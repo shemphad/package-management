@@ -103,5 +103,6 @@ systemctl enable kubelet.service
 # replace this token with yours
 
 kubeadm join 172.31.24.43:6443 --token sfog2x.s0ezaomtzzut0pt5 \
-        --discovery-token-ca-cert-hash sha256:491b244f3c4e1bab4a9cd9c20635160ed
+        --discovery-token-ca-cert-hash sha256:491b244f3c4e1bab4a9cd9c20635160edafee2b14e9991abef2c623f08d12258
+
 
